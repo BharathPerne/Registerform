@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="container">
+    <h1>Registration Form</h1>
+    <form id="registrationForm" onsubmit="return validateForm()" action="confirmation.html">
+      <i class='bx bxs-user-circle'>
+        <label for="Full name">Full Name:</label>
+      </i>
+        <input type="text" id="Full name" name=" Full name" placeholder="Enter your Full name" required>
+
+
+      <i class='bx bxs-user-circle'>
+      <label for="name">Name:</label>
+    </i>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      
+      <i class='bx bxl-gmail'>
+      <label for="email">Email:</label>
+    </i>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <i class='bx bxs-phone-call'>
+        <label for="phone-call">Phone call:</label>
+    </i>
+      <input type="number" id="phone-call" name="Phone-call" placeholder="Enter your Phone-call" required>
+
+
+
+    
+      <i class='bx bxs-lock'>
+      <label for="password">Password:</label>
+    </i>
+      <input type="password" id="password" name="password" placeholder="Enter a strong password" required>
+
+      <i class='bx bxs-home-circle'>
+        <label for="Address">Address:</label>
+      </i>
+        <input type="text" id="Address" name="Address" placeholder="Enter the Address" required>
+
+
+      <i class='bx bxs-home-circle'>
+        <label for="pincode">Pincode:</label>
+      </i>
+        <input type="number" id="Pincode" name="Pincode" placeholder="Enter the Pincode" required>
+      
+      
+
+      <button type="submit">Register</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
